@@ -138,3 +138,23 @@ noremap o gj
 noremap e gk
 noremap u l
 " }}}
+
+" {{{ VCSCommand
+nmap .ca :VCSAdd<CR>
+nmap .cn :VCSAnnotate<CR>
+nmap .cc :VCSCommit<CR>
+nmap .cD :VCSDelete<CR>
+nmap .cd :VCSDiff<CR>
+nmap .cg :VCSGotoOriginal<CR>
+nmap .cG :VCSGotoOriginal!<CR>
+nmap .ci :VCSInfo<CR>
+nmap .cl :VCSLog<CR>
+nmap .cL :VCSLock<CR>
+nmap .cr :VCSReview<CR>
+nmap .cs :VCSStatus<CR>
+nmap .cu :VCSUpdate<CR>
+nmap .cU :VCSUnlock<CR>
+nmap .cv :VCSVimDiff<CR>
+"
+" }}}
+
