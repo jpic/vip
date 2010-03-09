@@ -158,3 +158,10 @@ nmap .cv :VCSVimDiff<CR>
 "
 " }}}
 
+" {{{ Basic coding preferences
+set expandtab 
+set shiftwidth=4 
+nmap <C-c> :set invpaste<CR>
+inoremap <C-c> <ESC>:set invpaste<CR>i
+vnoremap <C-c> <ESC>:set invpaste<CR>v
+" }}}
