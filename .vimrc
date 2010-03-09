@@ -132,42 +132,9 @@ inoremap <silent><C-Right> <C-o>:cal search('\<\<Bar>\U\@<=\u\<Bar>\u\ze\%(\U\&\
 
 " }}}
 
-" {{{ MinibuffExplorer plugin bindings for dvorak-code
-" Map <C-w> !@#${}&*()[]
-noremap <C-w>! :buffer 1<CR>
-noremap <C-w>@ :buffer 2<CR>
-noremap <C-w># :buffer 3<CR>
-noremap <C-w>$ :buffer 4<CR>
-noremap <C-w>{ :buffer 5<CR>
-noremap <C-w>} :buffer 6<CR>
-noremap <C-w>& :buffer 7<CR>
-noremap <C-w>* :buffer 8<CR>
-noremap <C-w>( :buffer 9<CR>
-noremap <C-w>) :buffer 10<CR>
-noremap <C-w>[ :buffer 11<CR>
-noremap <C-w>] :buffer 12<CR>
-inoremap <C-w>! <ESC>:buffer 1<CR>i
-inoremap <C-w>@ <ESC>:buffer 2<CR>i
-inoremap <C-w># <ESC>:buffer 3<CR>i
-inoremap <C-w>$ <ESC>:buffer 4<CR>i
-inoremap <C-w>{ <ESC>:buffer 5<CR>i
-inoremap <C-w>} <ESC>:buffer 6<CR>i
-inoremap <C-w>& <ESC>:buffer 7<CR>i
-inoremap <C-w>* <ESC>:buffer 8<CR>i
-inoremap <C-w>( <ESC>:buffer 9<CR>i
-inoremap <C-w>) <ESC>:buffer 10<CR>i
-inoremap <C-w>[ <ESC>:buffer 11<CR>i
-inoremap <C-w>] <ESC>:buffer 12<CR>i
-vnoremap <C-w>! <ESC>:buffer 1<CR>v
-vnoremap <C-w>@ <ESC>:buffer 2<CR>v
-vnoremap <C-w># <ESC>:buffer 3<CR>v
-vnoremap <C-w>$ <ESC>:buffer 4<CR>v
-vnoremap <C-w>{ <ESC>:buffer 5<CR>v
-vnoremap <C-w>} <ESC>:buffer 6<CR>v
-vnoremap <C-w>& <ESC>:buffer 7<CR>v
-vnoremap <C-w>* <ESC>:buffer 8<CR>v
-vnoremap <C-w>( <ESC>:buffer 9<CR>v
-vnoremap <C-w>) <ESC>:buffer 10<CR>v
-vnoremap <C-w>[ <ESC>:buffer 11<CR>v
-vnoremap <C-w>] <ESC>:buffer 12<CR>v
+" {{{ Dvorak aoeu
+noremap a h
+noremap o gj
+noremap e gk
+noremap u l
 " }}}
