@@ -165,3 +165,7 @@ nmap <C-c> :set invpaste<CR>
 inoremap <C-c> <ESC>:set invpaste<CR>i
 vnoremap <C-c> <ESC>:set invpaste<CR>v
 " }}}
+
+map <S-F5> <Esc>:EnableFastPHPFolds<Cr>
+map <S-F6> <Esc>:EnablePHPFolds<Cr>
+map <S-F7> <Esc>:DisablePHPFolds<Cr> 
